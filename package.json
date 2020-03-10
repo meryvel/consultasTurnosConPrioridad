@@ -1,0 +1,21 @@
+{
+  "name": "servidor",
+  "version": "1.0.0",
+  "description": "Consultas de Turnos con Prioridad",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "author": "Maria Velazquez",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "msnodesqlv8": "^0.8.10",
+    "mssql": "^6.1.0"
+  }
+}
